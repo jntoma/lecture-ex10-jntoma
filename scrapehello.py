@@ -44,9 +44,8 @@ print('--------')
 
 img_tag = soup.find('img')
 print('The img source:')
+print(img_tag['src'])
 print('--------')
-
-img_tag = soup.find('img')
 print('The img width:')
 print(img_tag['width'])
 print('--------')
