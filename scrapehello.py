@@ -38,8 +38,7 @@ print('--------')
 
 print('List items within hello tag')
 hello_list_items = all_hello_elements[0].find_all('li')
-for li in hello_list_items:
-    print(li.string)
+print(hello_list_items)
 print('--------')
 
 img_tag = soup.find('img')
